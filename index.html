@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/all.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightgallery-js/1.4.0/css/lightgallery.min.css  ">
+    <link rel="stylesheet" href="style/style.css">
+    <title>webstore</title>
+</head>
+<body>
+    <!----------header section--------->
+<header class="header">
+    <a href="#home" class="logo"> <img src="image/kshop.jpg" alt=""></a>
+    <form action="" class="search-form">
+        <input type="search" placeholder="search here.." id="search-box">
+        <label for="search-box" class="fas fa-search"></label>
+    </form>
+    <div class="icons">
+        <div id="menu-btn" class="fas fa-bars"></div>
+        <div id="search-btn" class="fas fa-search"></div>
+        <a href="#" class="fas fa-heart"></a>
+        <a href="#" class="fas fa-shopping-cart"></a>
+    </div>
+ 
+</header>
+<!------------navbar section------------->
+<nav class="navbar">
+    <div id="close-navbar" class="fas fa-times"></div>
+    <a href="#home">home</a>
+    <a href="#shop">shop</a>
+    <a href="#gallery">gallery</a>
+    <a href="#contact">contact</a>
+    <a href="#blogs">blogs</a>
+</nav>
+<!------------home section ------------->
+<section class="home" id="home">
+    <div class="slide active">
+        <div class="content">
+            <img src="image/hariPink.jpg" alt="">
+            <span>new arrivals 2022</span>
+            <h3>cosmetics</h3>
+            <a href="#" class="btn">read more</a>
+            <div class="controls">
+                <div class="fas fa-angle-right" onclick="next()"></div>
+                <div class="fas fa-angle-left" onclick="prev()"></div>
+            </div>
+        </div>
+        <div class="image">
+            <img src="image/hariPink.jpg" alt="">
+        </div>
+    </div>
+    <div class="slide">
+        <div class="content">
+            <img src="image/hairPink3.jpg" alt="">
+            <span>new arrivals 2022</span>
+            <h3>cosmetics</h3>
+            <a href="#"class="btn">read more</a>
+            <div class="controls">
+                
+                <div class="fas fa-angle-right" onclick="next()"></div>
+                <div class="fas fa-angle-left" onclick="prev()"></div>
+            </div>
+        </div>
+        <div class="image">
+            <img src="image/hairPink3.jpg" alt="">
+        </div>
+    </div>
+    <div class="slide">
+        <div class="content">
+            <img src="image/hariPink2.jpg" alt="">
+            <span>new arrivals 2022</span>
+            <h3>cosmetics</h3>
+            <a href="#"class="btn">read more</a>
+            <div class="controls">
+                <div class="fas fa-angle-right" onclick="next()"></div>
+                <div class="fas fa-angle-left" onclick="prev()"></div>
+
+            </div>
+        </div>
+        <div class="image">
+            <img src="image/hariPink2.jpg" alt="">
+        </div>
+    </div>
+</section>
+<!------------ category section --------------->
+<section class="category">
+    <a href="" class="box">
+        <img src="image/point.png" alt="">
+        <p>cosmetics</p>
+    </a>
+    <a href="" class="box">
+        <img src="image/point.png" alt="">
+        <p>cosmetics</p>
+    </a>
+    <a href="" class="box">
+        <img src="image/point.png" alt="">
+        <p>cosmetics</p>
+    </a>
+    <a href="" class="box">
+        <img src="image/point.png" alt="">
+        <p>cosmetics</p>
+    </a>
+    <a href="" class="box">
+        <img src="image/point.png" alt="">
+        <p>cosmetics</p>
+    </a>
+    <a href="" class="box">
+        <img src="image/point.png" alt="">
+        <p>cosmetics</p>
+    </a>
+</section>
+<!--------------- about --------------->
+<section class="about" id="about">
+<div class="content">
+    <span>لماذا نحن؟</span>
+    <h3>أولا نحن مختلفون عن اي شركة في منتجات الشعر</h3>
+    <p>نحن اكبر شركة نصابه في الشرق الاوسط ولذالك ستندم ان لم تشتري من عندنا حظا موفقا لكل العملاء</p>
+    <a href="" class="btn">read more</a>
+</div>
+</section>
+<!--------------- shop section --------------->
+<section class="shop" id="shop">
+    <div class="heading">
+        <h1>featured products</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Natus illum atque at.</p>
+    </div>
+    <div class="products-slider swiper">
+        <div class="swiper-wrapper">
+            <div class="slide swiper-slide">
+                <div class="image">
+                   
+                    <img src="image/1649370288176.jpg" alt="">
+                    <div class="icons">
+                        <a href="" class="fas fa-shopping-cart"></a>
+                        <a href="" class="fas fa-heart"></a>
+                        <a href="" class="fas fa-share"></a>
+                    </div>
+                </div>
+                <div class="content">
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <p>كريم ازالة الشعر خلال3دقائق<br>السعر <span class="price">1500</span> ريال قديم<br></p>
+                    
+                    <button >buy now</button>
+                </div>
+            </div>
+            <div class="slide swiper-slide">
+                <div class="image">
+                    <img src="image/princ.jpg" alt="">
+                    <div class="icons">
+                        <a href="" class="fas fa-shopping-cart"></a>
+                        <a href="" class="fas fa-heart"></a>
+                        <a href="" class="fas fa-share"></a>
+                    </div>
+                </div>
+                <div class="content">
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <p>بروتين برازيلي خالي من الفورمالين<br>السعر<span class="price">4500 </span>ريال 50 مل</p>
+                    
+                    <button >buy now</button>
+
+                </div>
+            </div>
+            <div class="slide swiper-slide">
+                <div class="image">
+                    
+
+                    <img src="image/hariWhite.jpg" alt="">
+                    <div class="icons">
+                        <a href="" class="fas fa-shopping-cart"></a>
+                        <a href="" class="fas fa-heart"></a>
+                        <a href="" class="fas fa-share"></a>
+                    </div>
+                </div>
+                <div class="content">
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <p>صبغة شعر لون ثلجي<br>السعر<span class="price">2000 </span>ريال</p>
+                    
+                    <button >buy now</button>
+                </div>
+            </div>
+            <div class="slide swiper-slide">
+                <div class="image">
+                   
+
+                    <img src="image/toppik.jpg" alt="">
+                    <div class="icons">
+                        <a href="" class="fas fa-shopping-cart"></a>
+                        <a href="" class="fas fa-heart"></a>
+                        <a href="" class="fas fa-share"></a>
+                    </div>
+                </div>
+                <div class="content">
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <p>عرض خاص لشراء المجموعه كامله<br>السعر<span class="price">10500 </span>ريال</p>
+                    
+                    <button >buy now</button>
+                </div>
+            </div>
+            <div class="slide swiper-slide">
+                <div class="image">
+                  
+
+                    <img src="image/massag.jpg" alt="">
+                    <div class="icons">
+                        <a href="" class="fas fa-shopping-cart"></a>
+                        <a href="" class="fas fa-heart"></a>
+                        <a href="" class="fas fa-share"></a>
+                    </div>
+                </div>
+                <div class="content">
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <p>مساج كهربائي خفيف للرقبه<br>السعر<span class="price">4500 </span>ريال</p>
+                    
+                    <button >buy now</button>
+                </div>
+            </div>
+            <div class="slide swiper-slide">
+                <div class="image">
+                   
+
+                    <img src="image/fiber.jpg" alt="">
+                    <div class="icons">
+                        <a href="" class="fas fa-shopping-cart"></a>
+                        <a href="" class="fas fa-heart"></a>
+                        <a href="" class="fas fa-share"></a>
+                    </div>
+                </div>
+                <div class="content">
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <p>نافخ فيبر<br>السعر<span class="price">خليها مفاجئه </span></p>
+                    
+                    <button >buy now</button>
+                </div>
+            </div>
+            <div class="slide swiper-slide">
+                <div class="image">
+                   
+
+                    <img src="image/protin.jpg" alt="">
+                    <div class="icons">
+                        <a href="" class="fas fa-shopping-cart"></a>
+                        <a href="" class="fas fa-heart"></a>
+                        <a href="" class="fas fa-share"></a>
+                    </div>
+                </div>
+                <div class="content">
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <p>بروتين برازيلي خالي من الفورمالين<br>السعر<span class="price"> 9000 </span></p>
+                    
+                    <button >buy now</button>
+                </div>
+            </div>
+            <div class="slide swiper-slide">
+                <div class="image">
+                    
+                    <img src="image/toppik3.jpg" alt="">
+                    <div class="icons">
+                        <a href="" class="fas fa-shopping-cart"></a>
+                        <a href="" class="fas fa-heart"></a>
+                        <a href="" class="fas fa-share"></a>
+                    </div>
+                </div>
+                <div class="content">
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <p>منتج هير فايبر لاخفاء فراغات الشعر<br>السعر<span class="price"> خليها مفاجئه ياخول </span></p>
+                    
+                    <button >buy now</button>
+                </div>
+            </div>
+        </div>
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+    </div>
+</section>
+<!--------------- gallery section --------------->
+<section class="gallery" id="gallery">
+    <div class="heading">
+        <h1>our gallery</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Natus illum atque at.</p>
+    </div>
+    <div class="lightbox">
+        <a href="image/meetone.jpg"><img src="image/fiber.jpg" alt=""></a>
+        <a href="image/meetone.jpg"><img src="image/hair.jpg" alt=""></a>
+        <a href="image/meetone.jpg"><img src="image/hairPink3.jpg" alt=""></a>
+        <a href="image/meetone.jpg"><img src="image/fiber.jpg" alt=""></a>
+        <a href="image/meetone.jpg"><img src="image/protin.jpg" alt=""></a>
+        <a href="image/meetone.jpg"><img src="image/hariPink2.jpg" alt=""></a>
+    </div>
+</section>
+<!---------------------- Google location map ---------------------->
+<section class="google" id="contact">
+    <div class="contact-in">
+       
+        <div class="contact-form">
+            <h1>تواصل معنا</h1>
+            <form action="">
+                <input type="text" placeholder="Name">
+                <input type="text" placeholder="Email">
+                <textarea placeholder="message"></textarea>
+                <input type="submit" value="ارسال" >
+            </form>
+        </div>
+        <div class="contact-map">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3847.132662380938!2d44.2215!3d15.3693!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xe52eabab8357f87b!2s7H7696CC%2BF53!5e0!3m2!1sen!2seg!4v1650717798001!5m2!1sen!2seg" width="100%" height="auto" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+    </div>
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/lightgallery-js/1.4.0/js/lightgallery.min.js"></script>
+<script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+    <script src="js/script.js"></script>
+    <script>
+         lightGallery(document.querySelector('.gallery .lightbox'))
+        
+
+
+
+         
+        
+    </script>
+</body>
+</html>
